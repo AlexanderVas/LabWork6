@@ -2,7 +2,7 @@
     font-family: 'Montserrat';
 }
 body{
-    background-color: #341532;
+    background-color: #322231;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -10,7 +10,7 @@ body{
 div .buttoms{
     display:block;
     position: relative;
-    background-color: #ff7cf7;
+    background-color: #ffdcfd;
     height:100%;
     margin-left: 1000px;
     width: 200px;
@@ -30,7 +30,7 @@ div h1{
     right: -3%;
 }
 #header{
-    background-color: #e838dd;
+    background-color: #e3a6df;
     display: flex;
     width: 100%;
     height: 100px;
@@ -40,7 +40,7 @@ div h1{
     box-shadow: 0 0 15px rgba(17,5,16,1);
 }
 .menu{
-    background-color: #e838dd;
+    background-color: #e3a6df;
     width: 20%;
     height: 600px;
     margin-right: 15%;
@@ -69,7 +69,7 @@ div h1{
 }
 #footer{
     width: 100%;
-    background-color: #e838dd;
+    background-color: #e3a6df;
     box-shadow: 0 0 15px rgba(17,5,16,1);
 }
 #footer h2{
