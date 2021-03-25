@@ -1,0 +1,89 @@
+*{
+    font-family: 'Montserrat';
+}
+body{
+    background-color: #341532;
+    margin: 0;
+}
+#header{
+    background: linear-gradient(90deg, rgba(255,124,247,1) 0%, rgba(236,234,98,1) 100%);
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 110px 0;
+    box-shadow: 0 0 15px rgba(17,5,16,1);
+}
+div h1{
+    color: white;
+    float: left;
+    margin: 0;
+    position:relative;
+    top: 25%;
+}
+#buttomgroup{
+    display:flex;
+    height:100%;
+    float:right;
+}
+div .buttoms{
+    display:block;
+    background-color: white;
+    height:100%;
+    width: 200px;
+    text-decoration: none;
+}
+.buttoms p{
+    text-align: center;
+    position:relative;
+    top:25%;
+}
+#wrapper{
+    position: relative;
+    left: 5%;
+    margin: 0 0 100px 0;
+}
+#menu{
+    display: inline-block;
+    background: linear-gradient(210deg, rgba(255,124,247,1) 0%, rgba(236,234,98,1) 100%);
+    width: 20%;
+    height: 600px;
+    margin: 0 100px 0 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(17,5,16,1);
+}
+#menu p, #news p, #content p{
+    text-align: center;
+    color: white;
+}
+#content{
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(210deg, rgba(255,124,247,1) 0%, rgba(236,234,98,1) 100%);
+    width: 60%;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(17,5,16,1);
+}
+#news{
+    display: inline-block;
+    background: linear-gradient(210deg, rgba(255,124,247,1) 0%, rgba(236,234,98,1) 100%);
+    float: right;
+    clear: right;
+    margin: 0 15px 0 0;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(17,5,16,0.5);
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(255,124,247,1) 0%, rgba(236,234,98,1) 100%);
+    box-shadow: 0 0 15px rgba(17,5,16,1);
+}
+#footer h2{
+    position: relative;
+    top:35%;
+    text-align: center;
+    color: white;
+}
